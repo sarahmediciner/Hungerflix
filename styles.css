@@ -1,0 +1,108 @@
+body {
+    color: white;
+    background: black;
+    margin: 0px;
+    font-family: "Spline Sans Mono", monospace;
+    margin-bottom: 80px;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    border-bottom: solid 1px rgb(185, 49, 0);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(255, 208, 0);
+    font-family: "Rubik Mono One", monospace;
+    font-size: 35px;
+}
+
+.chamada {
+    background: rgb(124, 4, 0);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    margin-right: 2%;
+    margin-left: 5%;
+}
+
+.video {
+    margin-right: 5%;
+    margin-left: 2%;
+}
+
+h1 {
+    font-size: 31px;
+}
+
+img {
+    height: 150px;
+}
+
+
+.trailers {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.trailer{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.trailer img {
+    opacity: 0.5;
+    height: 150px;
+}
+.trailer img:hover{
+    opacity: 0.8;
+    border: 1px solid orange;
+}
+
+
+.recomendacoes{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.recomendacao{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.recomendacao img{
+    opacity: 0.5;
+    height: 150px;
+}
+.recomendacao img:hover{
+    opacity: 0.8;
+    border: 1px solid orange;
+}
+
+.musicas{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.musica{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.musica img{
+    opacity: 0.5;
+    height: 150px;
+}
+.musica img:hover{
+    opacity: 0.8;
+    border: 1px solid orange;   
+}
