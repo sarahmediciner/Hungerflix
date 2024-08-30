@@ -1,4 +1,5 @@
 body {
+    /*Sarah Oliveira Santana 3D 30/08/2024*/
     color: white;
     background: black;
     margin: 0px;
@@ -105,4 +106,5 @@ img {
 .musica img:hover{
     opacity: 0.8;
     border: 1px solid orange;   
+    /*Sarah Oliveira Santana 3D 30/08/2024*/
 }
